@@ -1,0 +1,28 @@
+---
+---
+
+@import "minima";
+@import "minima/syntax-highlighting";
+
+
+.site-header {
+    background-color: #673ab7;
+}
+
+.site-header .site-title {
+    color: white;
+}
+
+.site-header .page-link {
+    color: white;
+}
+
+.site-nav {
+    background-color: #673ab7;
+}
+
+@media screen and (max-width: 600px) { 
+    .site-nav .menu-icon > svg {
+        fill: white;
+    }
+}
